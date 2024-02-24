@@ -1,0 +1,9 @@
+airflow/*
+!airflow/dags/insert_conso_jour_region_in_bq.py
+data/*
+google\-cloud\-sdk/
+venv/
+*.log
+__pycache__/
+credentials.json
+old/*
