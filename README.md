@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 On propose ensuite d'insérer dans BigQuery les données historiques de consommations résidentielles moyennes des villes pour les trois années les plus récentes à disposition dans l'API : à savoir 2020 à 2022. Par ailleurs, on propose de compléter cette base avec une projection pour les années 2023, 2024 et 2025 de sorte à pouvoir calculer $\alpha$ sur l'année en cours (cf. [notice technique](./docs/Notice%20technique.htm)). Cette estimation est réalisée en supposant (par simplicité), une tendance linéaire pour chaque commune. Un modèle de régression linéaire simple est donc ajusté sur chaque commune pour produire ses consommations prévisionnelles pour 2023, 2024 et 2025.
 
-Tout ceci est réalisé à l'aide du script `0_insert_conso_an_ville_in_bq.py`.
+Tout ceci est réalisé à l'aide du script `0_insert_conso_an_ville_in_bq.py` (il prend environ 5minutes à tourner à la première exécution).
 
 ```shell
 mkdir data
