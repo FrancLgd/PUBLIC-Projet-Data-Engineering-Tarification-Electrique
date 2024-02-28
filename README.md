@@ -36,8 +36,8 @@ Les détails de la formule de tarification se trouvent dans la [notice technique
 ### 0. Clôner le dépôt git
 
 ```shell
-git clone https://github.com/FrancLgd/Tarification_elec.git
-cd Tarification_elec
+git clone https://github.com/FrancLgd/PUBLIC-Projet-Data-Engineering-Tarification-Electrique.git
+cd PUBLIC-Projet-Data-Engineering-Tarification-Electrique.git
 ```
 
 ### 1. S'authentifier à la Sandbox GCP
