@@ -31,7 +31,7 @@ Les détails de la formule de tarification se trouvent dans la [notice technique
 * Les coûts générés par l'utilisation du formulaire doivent être inférieurs à 20€ / 1000 estimations.
 * Les coûts de stockage et d'exécution sur le Cloud doivent être inférieurs à 100€ HT par mois.
 
-## Étapes de réalisation du projets
+## Étapes de réalisation du projet
 
 ### 0. Clôner le dépôt git
 
